@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="j.ico" type="x-icon">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="script.js"></script>
+    <title>Quiz do Juaquim</title>
+
+
+</head>
+
+<body>
+    <header>
+        
+        <h1>Quiz para testar os seus conhecimentos sobre o amigão da vizinhança: Carlos Joaquim</h1>
+        <abbr title="Lindão Gostozao"><img src="WhatsApp Image 2026-01-30 at 22.05.06.jpeg" alt="Lindão Gostozao" height="400" width="400"></abbr>
+        <p>Teste para você ver se passa no quiz e comprove sua amizade</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre o quiz:</h2>
+            <p>Este quiz tem a finalidade além de testar os conhecimentos gerais que o usuario tem sobre Carlos, 
+            fazer com que o Proprio Carlos treine um pouco dos seus conhecimentos personalizando este Quiz</p>
+            <hr>
+            </section>
+        <section>
+            <h2>Qual é a sua cor favorita?</h2>
+            <form>
+                    <input type="radio" value="Preto" id="p1a" name="pergunta1"> 
+                    <label for="p1a">Preto</label>
+                    <input type="radio" value="Azul" id="p1b" name="pergunta1">
+                    <label for="p1b">Azul</label>
+                    <input type="radio" value="Branco" id="p1c" name="pergunta1" >
+                    <label for="p1c">Branco</label>
+                    <input type="radio" value="Vermelho" id="p1d" name="pergunta1">
+                    <label for="p1d">Vermelho</label>
+            </form>
+        </section>
+        <section>
+            <h2>Quantos dentes ele possui?</h2>
+            <form>
+                <input type="checkbox" value="1" id="p2a" name="pergunta2[]">
+                <label for="p2a">1</label>
+                <input type="checkbox" value="300" id="p2b" name="pergunta2[]">
+                <label for="p2b">300</label>
+                <input type="checkbox" value="TODOS" id="p2c" name="pergunta2[]">
+                <label for="p2c">TODOS</label>
+                <input type="checkbox" value="32" id="p2d" name="pergunta2[]">
+                <label for="p2d">32</label>
+            </form>
+        </section>
+        <section>
+            <h2>Escreva uma mensagem motivacional ou --simplesmente diga oq quer falar pra ele:</h2>
+            <p>obs:Eu nunca vou ler pq o site não tem banco de dados</p>
+            <div class="texto">
+                <textarea name="Mensagem" id="mensagem" rows="10" cols="60" placeholder="Digite sua mensagem aqui.."></textarea>
+            </div>
+        </section>
+
+        <section>
+            <h2>Quando ele nasceu?</h2>
+            <form>
+                <input type="date" id="p4" name="pergunta3">
+            </form>
+        </section>
+        <section>
+            <h2>Mande uma imagem de você com o Carlos👍</h2>
+            <input type="file" id="p5" name="pergunta6">
+        </section>
+
+        <section>
+            <h2>Selecione a imagem que mais combina com ele:</h2>
+            <form class="imagens">
+                <img src="among sus.jpg" height="200" width="200" alt="">
+                <input type="checkbox" id="p6a" name="amoung">
+                <img src="palhaço.jpg" height="200" width="200" alt="">
+                <input type="checkbox" id="p6b" name="palhaço">
+                <img src="sorriso.jpg" height="200" width="200" alt="">
+                <input type="checkbox"  id="p6c" name="sorriso">
+                <img src="clarencio.jpg" height="200" width="200" alt="">
+                <input type="checkbox" id="p6d" name="clarencio">
+            </form>
+        </section>
+        <section>
+            <h2>Escolha o melhor amigo dele:</h2>
+            <select name="pergunta7" id="p7">
+                <option value="Thiago">Thiago</option>
+                <option value="Tacilio">Tacilio</option>
+                <option value="Gabriel">Gabriel</option>
+                <option value="Fabio">Fabio</option>
+                <option value="Outro">Outro não citado aqui</option>
+                <option value="Alycia">Nenhum desses porque é Alyica obv</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Qual a sua banda favorita?</h2>
+            <form id="p8" name="pergunta8">
+                <img src="calcinhapreta.jpg" alt="">
+                <input type="radio" id="im1" name="calcinhapreta">
+                <label for="im1">Calcinha Preta</label>
+                <img src="linkinpark.jpg" alt="">
+                <input type="radio" id="im2" name="linkinpark">
+                <label for="im2">Linkin Park</label>
+                <img src="charliebrown jr.jpg" alt="">
+                <input type="radio" id="im3" name="charliebrown">
+                <label for="im3">Charlie Brown Jr</label>
+                <img src="iguinhoelulinha.jpg" alt="">
+                <input type="radio" id="im4" name="iguinhoelulinha">
+                <label for="im4">Iguinho e Lulinha</label>
+            </form>
+        </section>
+        <section>
+            <h2>Qual o seu jogo favorito?</h2>
+            <div class="ima">
+                
+            <img src="clashroyale.jpg" width="200" height="200" alt="">
+            <img src="bloons.jpg"   width="200" height="200" alt="">
+            <img src="minecraft.jpg"  width="200" height="200" alt="">
+            <img src="frefire.jpg"  width="200" height="200" alt="">
+            </div>
+            <select name="pergunta9" id="p9">
+                <option value="Clash">Clash Royale</option>
+                <option value="Mine">Minecraft</option>
+                <option value="freefire">Free Fire</option>
+                <option value="bloons">Bloons TD 6  </option>
+            </select>
+        </section>
+        <section>
+            <h2>E o que ele mais gosta de fazer?</h2>
+            
+            <ul>
+                <li>Ouvir música</li>
+                <li>Sair com os Amigos</li>
+                <li>Ficar com a namorada</li>
+                <li>Estudar(nâo né)</li>
+            </ul>
+            <form >
+                <input type="text" id="p10" name="pergunta10" placeholder="Escreva aqui...">
+            </form>
+        </section>
+        <section>
+            <h2>Pra finalizar, dê uma nota de 0 a 10 da amizade dele para com você:</h2>
+            <select name="pergunta11" id="p11">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+            </select>
+            <section>
+                <button onclick="corrigirQuiz()">Finalizar Quiz</button>
+                <p id="resultado"></p>
+            </section>
+            <section>
+                 <section>
+                <h2>Tabela de pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-3</td>
+                            <td>Cê é burro einnn!! Não conhce nada de mim</td>
+                        </tr>
+                        <tr>
+                            <td>4-7</td>
+                            <td>Deve ser algum conhecido proximo..!</td>
+                        </tr>
+                        <tr>
+                            <td>8-10</td>
+                            <td>Ja posso te considerar um quase amigo em</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>VOCÊ É MEU MELHOR AMIGO!</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Deixa o like e se inscreve no canallll!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            </section>
+         <section>
+            <h2>Deixe o seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Nos diga o que achou e quem é você😊</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" id="nome" class="textinho"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="textinho"><br>
+                    <label for="comentarios">Nos diga o que achou:</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="7" cols="70" placeholder="Digite seus comentarios aqui..."></textarea>
+                    <br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
+                </fieldset>
+            </form>
+         </section>
+        </section>
+
+
+    </main>
+    <footer>
+        <p class="paragrafo-footer">Este site não tem banco de dados então provavelmente não irei ver os resultados, e nem vcs kk</p>
+        <p>Me chamo <a href="https://www.instagram.com/carli0s_j/" target="_blank">Carlos Joaquim</a>, e este é o meu primeiro site&copy;   !</p>
+    </footer>
+
+</body>
+</html>
