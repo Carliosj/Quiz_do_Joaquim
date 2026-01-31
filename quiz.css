@@ -16,6 +16,7 @@ header{
     padding: 2rem;
     text-align: center;
     background-color: rgb(6, 6, 79);
+    display: flex;
 }
 
 main{
@@ -174,6 +175,7 @@ fieldset{
     border: 2px solid #2a1bff;
     border-radius: 5px;
     padding: 1rem;
+    display:flex;
 }
 legend{
     color: #778cdd;
@@ -220,4 +222,5 @@ footer a{
 .fim{
     color: #000000;
     padding: 1rem;
+
 }
