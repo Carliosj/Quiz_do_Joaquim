@@ -1,115 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Cabin:ital,wght@0,400..700;1,400..700&family=Share+Tech&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(226, 226, 254);
     color: rgb(89, 89, 239);
     font-family: 'Bebas Neue';
     font-weight: 400;
 
 }
-header{
+
+header {
     padding: 2rem;
     text-align: center;
-    background-color: rgb(6, 6, 79)
+    background-color: rgb(6, 6, 79);
 }
 
-main{
+main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-h2{
+h2 {
     text-align: center;
-    color: #000000 ;
+    color: #000000;
     font-size: 2rem;
 }
 
-p{
+p {
     text-align: center;
     font-size: 1.5rem;
 }
 
-input[type="radio"],input[type="checkbox"]{
+input[type="radio"],
+input[type="checkbox"] {
     text-align: center;
     accent-color: #778cdd;
-    width: 16px; /* Define a largura */
-  height: 16px; /* Define a altura */
-  cursor: pointer; /* Melhora a usabilidade */
-  
+    width: 16px;
+    /* Define a largura */
+    height: 16px;
+    /* Define a altura */
+    cursor: pointer;
+    /* Melhora a usabilidade */
+
 }
 
 label {
     text-align: center;
-    font-size: 20px; /* Aumenta o texto */
+    font-size: 20px;
+    /* Aumenta o texto */
 }
 
-textarea{
+textarea {
 
-    border-radius:6px;
+    border-radius: 6px;
     outline: none;
     border-radius: 5px;
     border: 2px solid #5944fb;
     background-color: transparent;
     cursor: pointer;
     font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 700px;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     color: #778cdd;
 }
 
-input[type="text"]::placeholder{
+input[type="text"]::placeholder {
     color: #778cdd;
 }
-.centro{
+
+.centro {
     display: flex;
     align-items: center;
     gap: 8px;
-    
+
 }
-form{
+
+form {
     text-align: center;
     align-items: center;
 }
 
-.texto{
-    display:flex ;
+.texto {
+    display: flex;
     justify-content: center;
 }
 
-input[type="date"], [type="file"], [type="text"] {
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid #2a1bff;
-  color: #2a1bff;
-  font-size: 16px;
-  cursor: pointer;
-  outline: none;
-}
- .ima{ 
-  justify-content: center; /* centraliza no meio */
-  gap: 20px;               /* espaço entre as imagens */
-  flex-wrap: wrap;     
- }
-
- select{
+input[type="date"],
+[type="file"],
+[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #2a1bff;
+    color: #2a1bff;
+    font-size: 16px;
     cursor: pointer;
-    background-color:rgb(255, 255, 255);
+    outline: none;
+}
+
+.ima {
+    display: flex;
+    justify-content: center;
+    /* centraliza no meio */
+    gap: 20px;
+    /* espaço entre as imagens */
+    flex-wrap: wrap;
+}
+
+select {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
     color: #2a1bff;
     align-items: center;
     border: 2px solid #5944fb;
@@ -118,75 +134,82 @@ input[type="date"], [type="file"], [type="text"] {
     margin: auto;
     width: 320px;
     padding: 10px 14px;
-  border-radius: 12px;
-  border: 2px solid #ccc;
-  font-size: 16px;
-  background-color: #f9f9f9;
-  cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
 
-  /* remove o estilo padrão */
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+    /* remove o estilo padrão */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 
-  /* seta personalizada */
-  background-image: url("data:image/svg+xml;utf8,<svg fill='%23666' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
-  background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-size: 20px;
- }
+    /* seta personalizada */
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23666' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 20px;
+}
 
- ul{
-     width: fit-content;
+ul {
+    width: fit-content;
     margin: 0 auto;
- }
+}
 
- table{
+table {
     width: 100%;
     border-collapse: collapse;
 
 }
-th{
+
+th {
     background-color: #ccc;
     color: #5944fb;
     padding: 1rem;
 }
-td{
+
+td {
     color: #5944fb;
     padding: 1rem;
     text-align: center;
 }
-tfoot td{
+
+tfoot td {
     background-color: #778cdd;
     color: #F4F0EA;
 }
-details{
+
+details {
     background-color: #778cdd;
     border-radius: 5px;
     padding: 1rem;
 }
-td{
+
+td {
     font-size: 1rem;
 }
 
-fieldset{
+fieldset {
     border: 2px solid #2a1bff;
     border-radius: 5px;
     padding: 1rem;
-    display:flex;
 }
-legend{
+
+legend {
     color: #778cdd;
     padding: 0 0.5rem;
 }
-textarea{
+
+textarea {
     outline: none;
     border-radius: 5px;
     border: 2px solid #5944fb;
     background-color: transparent;
 
 }
-button{
+
+button {
     background-color: #2a1bff;
     border: none;
     padding: 0.7rem;
@@ -194,33 +217,34 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-footer{
+
+footer {
     background-color: #000000;
     padding: 2rem;
     text-align: center;
 }
-.paragrafo-footer{
+
+.paragrafo-footer {
     color: #f9f9f9;
 
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
 
-.textinho{
-   padding: 3px;
+.textinho {
+    padding: 3px;
     border-radius: 10px;
-  border: 2px solid #2a1bff;
-  color: #2a1bff;
-  font-size: 16px;
-  cursor: pointer;
-  outline: none;
+    border: 2px solid #2a1bff;
+    color: #2a1bff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
 
 }
-.fim{
+
+.fim {
     color: #000000;
     padding: 1rem;
-
 }
-
-
