@@ -15,8 +15,7 @@ body{
 header{
     padding: 2rem;
     text-align: center;
-    background-color: rgb(6, 6, 79);
-    display: flex;
+    background-color: rgb(6, 6, 79)
 }
 
 main{
@@ -224,3 +223,4 @@ footer a{
     padding: 1rem;
 
 }
+
